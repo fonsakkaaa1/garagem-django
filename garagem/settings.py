@@ -45,7 +45,7 @@ MIDDLEWARE = [
     "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
 
-ROOT_URLCONF = 'livraria.urls'
+ROOT_URLCONF = 'garagem.urls'
 
 TEMPLATES = [
     {
@@ -63,7 +63,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'livraria.wsgi.application'
+WSGI_APPLICATION = 'garagem.wsgi.application'
 
 
 # Database
@@ -75,6 +75,10 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+
+
+
 
 
 # Password validation
